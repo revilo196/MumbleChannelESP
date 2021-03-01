@@ -1,0 +1,24 @@
+MumbleProto.Version.release  max_length:32
+MumbleProto.Version.os  max_length:32
+MumbleProto.Version.os_version  max_length:32
+
+MumbleProto.Authenticate.username max_length:32
+MumbleProto.Authenticate.password max_length:32
+
+MumbleProto.Reject.reason  max_length:32
+
+MumbleProto.ServerSync.welcome_text max_length:128
+
+MumbleProto.ChannelState.name max_length:32
+MumbleProto.ChannelState.description max_length:128
+
+MumbleProto.UserState.name max_length:32
+
+MumbleProto.TextMessage.message max_length:32
+
+MumbleProto.PermissionDenied.reason max_length:32
+MumbleProto.PermissionDenied.name max_length:32
+
+MumbleProto.CryptSetup.key max_size:64
+MumbleProto.CryptSetup.client_nonce max_size:64
+MumbleProto.CryptSetup.server_nonce max_size:64
